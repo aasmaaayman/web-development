@@ -1,0 +1,97 @@
+#header-nav {
+  border-radius: 0;
+  padding: 0;
+  background-color: #aaaaaa;
+  border: 2px solid black;
+}
+.description {
+	background-color: #aaaaaa;
+	height: 1000px;
+}
+.navbar-brand h1 {
+  font-family: Lucida Console;
+  color:#000000;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    border:3px solid black;
+    width: 35px;
+}
+.navbar-default .navbar-toggle{
+	border:2px solid black;
+	padding: 5px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+ul li{
+font-family: Lucida Console;
+border:2px solid black;
+font-weight: bold;
+list-style: none;
+font-size: 1.2em;
+background: white;
+}
+ul li:hover {
+  background: #E7E7E7;
+}
+h2{
+  font-family: Lucida Console;
+  font-weight: bold;
+  color:#000000;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+h3{
+  margin-top: 10px;
+  font-family: Lucida Console;
+  font-weight: bold;
+  color:#000000;
+  font-size: 20px;
+}
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	p{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	p{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	p{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	}
+	/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	p{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
